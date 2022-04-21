@@ -1,0 +1,868 @@
+{
+	"info": {
+		"_postman_id": "43fb44cd-c973-4d1b-bcb8-34dcacf3e4cb",
+		"name": "IntegratorDooca",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Catalog",
+			"item": [
+				{
+					"name": "Brands",
+					"item": [
+						{
+							"name": "localhost:4000/integrator/catalog/brands",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/brands",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"brands"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "localhost:4000/integrator/catalog/brands",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/brands",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"brands"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Embedder-Policy",
+											"value": "require-corp"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "3221"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"c95-f6MTuCiF0YItUFyRVTjd5hj76R0\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 21 Apr 2022 12:48:39 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 4069,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Marca Integrador test1\",\n            \"slug\": \"marca-integrador-test1\",\n            \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 7,\n            \"url\": \"https://bagy.sandbox.dooca.store/marca-integrador-test1\",\n            \"active\": true,\n            \"created_at\": \"2022-04-21 01:41:50\",\n            \"updated_at\": \"2022-04-21 01:41:50\"\n        },\n        {\n            \"id\": 4068,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"teste bagy 03\",\n            \"slug\": \"teste-bagy-03\",\n            \"description\": null,\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 6,\n            \"url\": \"https://bagy.sandbox.dooca.store/teste-bagy-03\",\n            \"active\": true,\n            \"created_at\": \"2022-04-20 17:49:21\",\n            \"updated_at\": \"2022-04-20 17:49:21\"\n        },\n        {\n            \"id\": 4067,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Marca bagy 02\",\n            \"slug\": \"marca-bagy-02-1\",\n            \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 5,\n            \"url\": \"https://bagy.sandbox.dooca.store/marca-bagy-02-1\",\n            \"active\": true,\n            \"created_at\": \"2022-04-20 17:06:01\",\n            \"updated_at\": \"2022-04-20 17:06:01\"\n        },\n        {\n            \"id\": 4066,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Marca bagy 02\",\n            \"slug\": \"marca-bagy-02\",\n            \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 4,\n            \"url\": \"https://bagy.sandbox.dooca.store/marca-bagy-02\",\n            \"active\": true,\n            \"created_at\": \"2022-04-20 17:03:25\",\n            \"updated_at\": \"2022-04-20 17:03:25\"\n        },\n        {\n            \"id\": 4065,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Marca bagy 01\",\n            \"slug\": \"marca-bagy-01\",\n            \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 3,\n            \"url\": \"https://bagy.sandbox.dooca.store/marca-bagy-01\",\n            \"active\": true,\n            \"created_at\": \"2022-04-20 17:00:54\",\n            \"updated_at\": \"2022-04-20 17:00:54\"\n        },\n        {\n            \"id\": 3893,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Adidas\",\n            \"slug\": \"adidas\",\n            \"description\": null,\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 1,\n            \"url\": \"https://bagy.sandbox.dooca.store/adidas\",\n            \"active\": true,\n            \"created_at\": \"2022-03-07 17:42:47\",\n            \"updated_at\": \"2022-03-07 17:42:47\"\n        },\n        {\n            \"id\": 3894,\n            \"external_id\": null,\n            \"hotsite_id\": null,\n            \"name\": \"Nike\",\n            \"slug\": \"nike\",\n            \"description\": null,\n            \"short_description\": null,\n            \"image\": null,\n            \"banner\": null,\n            \"meta_title\": null,\n            \"meta_keywords\": null,\n            \"meta_description\": null,\n            \"position\": 2,\n            \"url\": \"https://bagy.sandbox.dooca.store/nike\",\n            \"active\": true,\n            \"created_at\": \"2022-03-07 17:42:47\",\n            \"updated_at\": \"2022-03-07 17:42:47\"\n        }\n    ],\n    \"links\": {\n        \"first\": \"https://api.sandbox.dooca.store/brands?limit=25&sort=-created_at&page=1\",\n        \"last\": \"https://api.sandbox.dooca.store/brands?limit=25&sort=-created_at&page=1\",\n        \"prev\": null,\n        \"next\": null\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 1,\n        \"path\": \"https://api.sandbox.dooca.store/brands\",\n        \"per_page\": 25,\n        \"to\": 7,\n        \"total\": 7\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/brands",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/brands",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"brands"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "localhost:4000/integrator/catalog/brands",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"Marca Integrador test2\",\n    \"external_id\": null,\n    \"active\": \"1\",\n    \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n    \"image\": {\n        \"src\": \"https://cdn.dooca.com.br/loja/brand/15554457572790.png\"\n    },\n    \"meta_title\": null,\n    \"meta_keywords\": null,\n    \"meta_description\": null,\n    \"short_description\": null,\n    \"position\": null,\n    \"banner\": {\n        \"src\": \"https://cdn.dooca.com.br/loja/brand/15550979046010.png\"\n    },\n    \"created_at\": \"2019-04-12 16:38:24\",\n    \"updated_at\": \"2019-04-16 17:15:57\"\n}"
+										},
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/brands",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"brands"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Embedder-Policy",
+											"value": "require-corp"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "466"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"1d2-iPZ1qz9osvwfQAfZajyaS1dLoBE\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 21 Apr 2022 12:55:50 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 4070,\n    \"external_id\": null,\n    \"hotsite_id\": null,\n    \"name\": \"Marca Integrador test2\",\n    \"slug\": \"marca-integrador-test2\",\n    \"description\": \"<p>A Marca que transforma o plástico em extraordinário.</p>\",\n    \"short_description\": null,\n    \"image\": null,\n    \"banner\": null,\n    \"meta_title\": null,\n    \"meta_keywords\": null,\n    \"meta_description\": null,\n    \"position\": 8,\n    \"url\": \"https://bagy.sandbox.dooca.store/marca-integrador-test2\",\n    \"active\": true,\n    \"created_at\": \"2022-04-21 09:55:50\",\n    \"updated_at\": \"2022-04-21 09:55:50\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Attributes",
+					"item": [
+						{
+							"name": "localhost:4000/integrator/catalog/attributes",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/attributes",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"attributes"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "successfully / 200",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/attributes",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"attributes"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Embedder-Policy",
+											"value": "require-corp"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "3642"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"e3a-pmtAQ4VEntvbbdBj08lKTl7rgFM\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 21 Apr 2022 12:30:47 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "application/json; charset=utf-8 content type is not supported in the response body"
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/attributes",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/attributes",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"attributes"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/attributes",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"attributes"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/attributes/value",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/attributes/value",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"attributes",
+										"value"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/attributes/value",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"attributes",
+												"value"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/attributes/value",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/attributes/value",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"attributes",
+										"value"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/attributes/value",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"attributes",
+												"value"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Products",
+					"item": [
+						{
+							"name": "localhost:4000/integrator/catalog/products",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/products",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"products"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/products",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"products"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/products",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/products",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"products"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/products",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"products"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Categories",
+					"item": [
+						{
+							"name": "localhost:4000/integrator/catalog/categories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/categories",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"categories"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/categories",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"categories"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/categories",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/categories",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"categories"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/categories",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"categories"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Colors",
+					"item": [
+						{
+							"name": "localhost:4000/integrator/catalog/colors",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/colors",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"colors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/colors",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"colors"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "localhost:4000/integrator/catalog/colors",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL1}}/integrator/catalog/colors",
+									"host": [
+										"{{baseURL1}}"
+									],
+									"path": [
+										"integrator",
+										"catalog",
+										"colors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "no response code found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseURL1}}/integrator/catalog/colors",
+											"host": [
+												"{{baseURL1}}"
+											],
+											"path": [
+												"integrator",
+												"catalog",
+												"colors"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "http://localhost:4000",
+			"type": "any"
+		}
+	]
+}
